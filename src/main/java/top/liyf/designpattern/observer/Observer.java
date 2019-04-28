@@ -11,7 +11,6 @@ public interface Observer {
      *
      * @param subject 被观察者
      * @param arg 参数
-     * @return void
      * @author liyf
      */
     void update(Subject subject, Object arg);
